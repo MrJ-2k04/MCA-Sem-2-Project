@@ -1,6 +1,6 @@
 name,company,year,Price,kms_driven,fuel_type,Age,Annual_Km_Driven
 Hyundai Santro Xing XO eRLX Euro III,Hyundai,2007,80000,45000,Petrol,13,3461.5384615384614
-Mahindra Jeep CL550 MDI,Mahindra,2006,425000,40,Diesel,14,2.857142857142857
+Mahindra Jeep CL550 MDI,Mahindra,2006,425000,140160,Diesel,14,10011.436886549187
 Hyundai Grand i10 Magna 1.2 Kappa VTVT,Hyundai,2014,325000,28000,Petrol,6,4666.666666666667
 Ford EcoSport Titanium 1.5L TDCi,Ford,2014,575000,36000,Diesel,6,6000.0
 Ford Figo,Ford,2012,175000,41000,Diesel,8,5125.0
@@ -12,7 +12,7 @@ Maruti Suzuki Stingray VXi,Maruti,2015,315000,30000,Petrol,5,6000.0
 Hyundai Elite i20 Magna 1.2,Hyundai,2014,415000,32000,Petrol,6,5333.333333333333
 Mahindra Scorpio SLE BS IV,Mahindra,2015,320000,48660,Diesel,5,9732.0
 Hyundai Santro Xing XO eRLX Euro III,Hyundai,2007,80000,45000,Petrol,13,3461.5384615384614
-Mahindra Jeep CL550 MDI,Mahindra,2006,425000,40,Diesel,14,2.857142857142857
+Mahindra Jeep CL550 MDI,Mahindra,2006,425000,140160,Diesel,14,10011.436886549187
 Audi A8,Audi,2017,1000000,4000,Petrol,3,1333.3333333333333
 Audi Q7,Audi,2014,500000,16934,Diesel,6,2822.3333333333335
 Mahindra Scorpio S10,Mahindra,2016,350000,43000,Diesel,4,10750.0
@@ -205,14 +205,14 @@ Mahindra Quanto C8,Mahindra,2013,375000,20000,Diesel,7,2857.1428571428573
 Hyundai Grand i10 Sportz O 1.2 Kappa VTVT,Hyundai,2014,365000,20000,Petrol,6,3333.3333333333335
 Hyundai i20 Active 1.2 SX,Hyundai,2015,500000,18000,Petrol,5,3600.0
 Mahindra Xylo E4,Mahindra,2012,400000,35000,Diesel,8,4375.0
-Mahindra Jeep MM 550 XDB,Mahindra,2019,390000,60,Diesel,1,60.0
+Mahindra Jeep MM 550 XDB,Mahindra,2019,390000,10011,Diesel,1,10011.436886549187
 Renault Duster 110PS Diesel RxZ,Renault,2012,501000,35000,Diesel,8,4375.0
 Mahindra Bolero SLE BS IV,Mahindra,2013,330000,80200,Diesel,7,11457.142857142857
 Force Motors Force One LX ABS 7 STR,Force,2015,580000,3200,Diesel,5,640.0
 Maruti Suzuki SX4,Maruti,2012,265000,46000,Diesel,8,5750.0
-Mahindra Jeep CL550 MDI,Mahindra,2019,379000,0,Diesel,1,0.0
+Mahindra Jeep CL550 MDI,Mahindra,2019,379000,10011,Diesel,1,10011.436886549187
 Maruti Suzuki Alto 800,Maruti,2015,219000,5000,Petrol,5,1000.0
-Mahindra Jeep CL550 MDI,Mahindra,2018,385000,588,Diesel,2,294.0
+Mahindra Jeep CL550 MDI,Mahindra,2018,385000,20022,Diesel,2,10011.436886549187
 Toyota Etios,Toyota,2011,275000,36000,Diesel,9,4000.0
 Volkswagen Polo,Volkswagen,2015,330000,38000,Diesel,5,7600.0
 Honda City ZX VTEC,Honda,2008,110000,45000,Petrol,12,3750.0
@@ -289,7 +289,7 @@ Mini Cooper S 1.6,Mini,2013,1891111,13000,Petrol,7,1857.142857142857
 Tata Indica V2 Xeta e GLE,Tata,2008,150000,11000,Petrol,12,916.6666666666666
 Mini Cooper S,Mini,2013,1891111,13000,Petrol,7,1857.142857142857
 Tata Indigo CS LS DiCOR,Tata,2009,72500,46000,Diesel,11,4181.818181818182
-Maruti Suzuki Swift VXi 1.2 ABS BS IV,Maruti,2019,610000,73,Petrol,1,73.0
+Maruti Suzuki Swift VXi 1.2 ABS BS IV,Maruti,2019,610000,5080,Petrol,1,5080.053693088486
 Mahindra Scorpio VLX Special Edition BS III,Mahindra,2004,230000,160000,Diesel,16,10000.0
 Honda Accord,Honda,2009,175000,58559,Petrol,11,5323.545454545455
 Mahindra Scorpio S4,Mahindra,2015,855000,30000,Diesel,5,6000.0
@@ -349,7 +349,7 @@ Mahindra Bolero Power Plus SLE,Mahindra,2018,699000,1800,Diesel,2,900.0
 Mahindra XUV500,Mahindra,2015,1000000,15000,Diesel,5,3000.0
 Honda City 1.5 V MT Exclusive,Honda,2010,240000,40000,Petrol,10,4000.0
 Chevrolet Spark LT 1.0 Airbag,Chevrolet,2009,110000,44000,Petrol,11,4000.0
-Mahindra Jeep MM 550 XDB,Mahindra,2019,390000,60,Diesel,1,60.0
+Mahindra Jeep MM 550 XDB,Mahindra,2019,390000,10011,Diesel,1,10011.436886549187
 Renault Duster 110PS Diesel RxZ,Renault,2012,501000,35000,Diesel,8,4375.0
 Mahindra XUV500,Mahindra,2016,1130000,72000,Diesel,4,18000.0
 Tata Indigo eCS VX CR4 BS IV,Tata,2014,250000,40000,Diesel,6,6666.666666666667
@@ -360,17 +360,17 @@ Tata Vista Quadrajet VX,Tata,2011,120000,90000,Diesel,9,10000.0
 Maruti Suzuki Alto K10 VXi AT,Maruti,2015,265000,12000,Petrol,5,2400.0
 Maruti Suzuki SX4,Maruti,2012,265000,46000,Diesel,8,5750.0
 Maruti Suzuki Zen LXi BS III,Maruti,2003,85000,69900,Petrol,17,4111.764705882353
-Mahindra Jeep CL550 MDI,Mahindra,2019,379000,0,Diesel,1,0.0
+Mahindra Jeep CL550 MDI,Mahindra,2019,379000,10011,Diesel,1,10011.436886549187
 Hyundai i10 Magna 1.2,Hyundai,2011,175000,45000,Petrol,9,5000.0
 Maruti Suzuki Alto 800,Maruti,2015,219000,5000,Petrol,5,1000.0
 Maruti Suzuki Swift Dzire Tour LDi,Maruti,2016,350000,166000,Diesel,4,41500.0
 Honda City ZX EXi,Honda,2008,149000,42000,Petrol,12,3500.0
-Mahindra Jeep CL550 MDI,Mahindra,2018,385000,588,Diesel,2,294.0
-Mahindra Jeep MM 550 XDB,Mahindra,2006,425000,122,Diesel,14,8.714285714285714
+Mahindra Jeep CL550 MDI,Mahindra,2018,385000,20022,Diesel,2,10011.436886549187
+Mahindra Jeep MM 550 XDB,Mahindra,2006,425000,140160,Diesel,14,10011.436886549187
 Chevrolet Beat Diesel,Chevrolet,2017,150000,62000,Diesel,3,20666.666666666668
 Honda City 1.5 S MT,Honda,2010,225000,70000,Petrol,10,7000.0
 Hyundai Verna 1.4 VTVT,Hyundai,2014,375000,36000,Petrol,6,6000.0
-Toyota Innova 2.5 E MS 7 STR BS IV,Toyota,2012,770000,0,Diesel,8,0.0
+Toyota Innova 2.5 E MS 7 STR BS IV,Toyota,2012,770000,80091,Diesel,8,10011.436886549187
 Maruti Suzuki Maruti 800 Std – Befo,Maruti,1995,30000,55000,Petrol,25,2200.0
 Toyota Etios,Toyota,2011,275000,36000,Diesel,9,4000.0
 Volkswagen Polo,Volkswagen,2015,330000,38000,Diesel,5,7600.0
@@ -406,7 +406,7 @@ Mahindra TUV300 T4 Plus,Mahindra,2017,610000,68000,Diesel,3,22666.666666666668
 Chevrolet Spark LS 1.0,Chevrolet,2010,95000,23000,Petrol,10,2300.0
 Mahindra TUV300 T8,Mahindra,2018,1000000,4500,Diesel,2,2250.0
 Maruti Suzuki Swift Dzire Tour LDi,Maruti,2015,220000,129000,Diesel,5,25800.0
-Nissan X Trail Select Variant,Nissan,2019,1200000,300,Diesel,1,300.0
+Nissan X Trail Select Variant,Nissan,2019,1200000,10011,Diesel,1,10011.436886549187
 Maruti Suzuki Alto 800 Vxi,Maruti,2015,230000,5000,Petrol,5,1000.0
 Ford Ikon 1.3 CLXi NXt Finesse,Ford,2001,45000,65000,Petrol,19,3421.0526315789475
 Toyota Fortuner 3.0 4x4 MT,Toyota,2010,940000,131000,Diesel,10,13100.0
@@ -445,7 +445,7 @@ Hyundai Eon Era Plus,Hyundai,2018,140000,2110,Petrol,2,1055.0
 Mitsubishi Pajero Sport Limited Edition,Mitsubishi,2015,1540000,43222,Petrol,5,8644.4
 Hyundai i10 Magna 1.2 Kappa2,Hyundai,2008,275000,100200,Petrol,12,8350.0
 Toyota Corolla H2,Toyota,2003,150000,100000,Petrol,17,5882.35294117647
-Maruti Suzuki Swift Dzire Tour VXi,Maruti,2011,230000,65,Petrol,9,7.222222222222222
+Maruti Suzuki Swift Dzire Tour VXi,Maruti,2011,230000,45720,Petrol,9,5080.053693088486
 Tata Indigo CS eLS BS IV,Tata,2015,123000,100000,Diesel,5,20000.0
 Mahindra Scorpio S10,Mahindra,2015,900000,97200,Diesel,5,19440.0
 Mahindra Scorpio S10,Mahindra,2015,900000,97200,Diesel,5,19440.0
@@ -460,7 +460,7 @@ Toyota Corolla Altis GL Petrol,Toyota,2010,220000,58000,Petrol,10,5800.0
 Maruti Suzuki Eeco 7 STR,Maruti,2013,290000,70000,Petrol,7,10000.0
 Toyota Fortuner 3.0 4x2 MT,Toyota,2015,1525000,120000,Diesel,5,24000.0
 Mahindra XUV500 W6,Mahindra,2013,548900,49800,Diesel,7,7114.285714285715
-Tata Tigor Revotron XZ,Tata,2019,650000,100,Diesel,1,100.0
+Tata Tigor Revotron XZ,Tata,2019,650000,10011,Diesel,1,10011.436886549187
 Maruti Suzuki 800,Maruti,2001,55000,81876,Petrol,19,4309.263157894737
 Maruti Suzuki Ertiga Vxi,Maruti,2015,550000,75000,Petrol,5,15000.0
 Maruti Suzuki Versa DX2 8 SEATER BSIII,Maruti,2004,90000,50000,Petrol,16,3125.0
@@ -547,7 +547,7 @@ Chevrolet Enjoy,Chevrolet,2014,490000,30201,Diesel,6,5033.5
 Maruti Suzuki Alto 800 Lxi,Maruti,2017,280000,6200,Petrol,3,2066.6666666666665
 BMW 5 Series 530i,BMW,2009,650000,37518,Petrol,11,3410.7272727272725
 Toyota Etios Liva G,Toyota,2014,160000,24652,Petrol,6,4108.666666666667
-Mahindra Jeep MM 550 XDB,Mahindra,2004,424000,383,Diesel,16,23.9375
+Mahindra Jeep MM 550 XDB,Mahindra,2004,424000,160182,Diesel,16,10011.436886549187
 Chevrolet Beat LS Diesel,Chevrolet,2016,225000,95000,Diesel,4,23750.0
 Chevrolet Cruze LTZ,Chevrolet,2011,350000,35000,Diesel,9,3888.8888888888887
 Jeep Wrangler Unlimited 4x4 Diesel,Jeep,2015,950000,3528,Diesel,5,705.6
@@ -660,7 +660,7 @@ Mercedes Benz C Class C 220 CDI Avantgarde,Mercedes,2009,1225000,76000,Diesel,11
 Mahindra Scorpio SLX,Mahindra,2004,175000,60000,Diesel,16,3750.0
 Volkswagen Vento Comfortline Diesel,Volkswagen,2011,200000,95000,Diesel,9,10555.555555555555
 Tata Indigo CS GLS,Tata,2017,270000,50000,Diesel,3,16666.666666666668
-Ford Figo Petrol Titanium,Ford,2019,525000,0,Petrol,1,0.0
+Ford Figo Petrol Titanium,Ford,2019,525000,5080,Petrol,1,5080.053693088486
 Honda City ZX GXi,Honda,2006,180000,50000,Petrol,14,3571.4285714285716
 Maruti Suzuki Wagon R Duo Lxi,Maruti,2008,140000,68000,Petrol,12,5666.666666666667
 Ford EcoSport Trend 1.5L TDCi,Ford,2014,400000,16000,Petrol,6,2666.6666666666665
@@ -679,7 +679,7 @@ Maruti Suzuki Wagon R LXi BS III,Maruti,2014,130000,37458,Petrol,6,6243.0
 Maruti Suzuki SX4 Celebration Diesel,Maruti,2016,970000,85960,Diesel,4,21490.0
 Audi A3 Cabriolet 40 TFSI,Audi,2015,3100000,12516,Petrol,5,2503.2
 Hyundai Eon D Lite Plus,Hyundai,2018,280000,35000,Petrol,2,17500.0
-Maruti Suzuki Zen Estilo LXI Green CNG,Maruti,2009,125000,0,Petrol,11,0.0
+Maruti Suzuki Zen Estilo LXI Green CNG,Maruti,2009,125000,55880,Petrol,11,5080.053693088486
 Mahindra Scorpio SLX,Mahindra,2008,285000,80000,Diesel,12,6666.666666666667
 Hyundai Santro AE GLS Audio,Hyundai,2011,165000,45000,Petrol,9,5000.0
 Maruti Suzuki Swift Dzire Tour VDi,Maruti,2009,250000,51000,Diesel,11,4636.363636363636
@@ -693,7 +693,7 @@ Toyota Fortuner 3.0 4x4 MT,Toyota,2013,1499000,97000,Diesel,7,13857.142857142857
 Maruti Suzuki Alto K10 VXi,Maruti,2013,240000,20000,Petrol,7,2857.1428571428573
 Hyundai Getz GLE,Hyundai,2007,99000,55000,Petrol,13,4230.7692307692305
 Maruti Suzuki Swift Dzire Tour LDi,Maruti,2014,260000,120000,Diesel,6,20000.0
-Hyundai Creta 1.6 SX,Hyundai,2019,1200000,0,Petrol,1,0.0
+Hyundai Creta 1.6 SX,Hyundai,2019,1200000,5080,Petrol,1,5080.053693088486
 Hyundai Santro Xing XL AT eRLX Euro III,Hyundai,2007,115000,46000,Petrol,13,3538.4615384615386
 Hyundai Santro Xing XL eRLX Euro III,Hyundai,2009,88000,43200,Petrol,11,3927.2727272727275
 Mahindra Xylo D2 BS IV,Mahindra,2011,390000,56000,Diesel,9,6222.222222222223
@@ -716,7 +716,7 @@ Maruti Suzuki Swift LDi,Maruti,2015,425000,42000,Diesel,5,8400.0
 Hyundai Verna 1.6 CRDI SX Plus AT,Hyundai,2012,600000,29000,Diesel,8,3625.0
 Chevrolet Tavera LS B3 10 Seats BSII,Chevrolet,2005,130000,68485,Diesel,15,4565.666666666667
 Tata Tiago Revotron XM,Tata,2018,430000,3500,Petrol,2,1750.0
-Tata Tiago Revotorq XZ,Tata,2019,568500,0,Petrol,1,0.0
+Tata Tiago Revotorq XZ,Tata,2019,568500,5080,Petrol,1,5080.053693088486
 Maruti Suzuki Zen LXi BS III,Maruti,2006,71000,32000,Petrol,14,2285.714285714286
 Mahindra KUV100 K8 D 6 STR,Mahindra,2018,560000,8000,Diesel,2,4000.0
 Ford EcoSport Titanium 1.5 TDCi,Ford,2014,590000,34000,Diesel,6,5666.666666666667
