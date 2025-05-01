@@ -1,28 +1,43 @@
-import streamlit as st
+
 import pandas as pd
 import numpy as np
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-import joblib
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+import streamlit as st
 
 # Load data
 df = pd.read_csv("Cleaned_Bike_Data.csv")
 
 # Encode categorical variables
-label_encoders = {}
-for col in ['model', 'city', 'owner', 'brand']:
-    le = LabelEncoder()
-    df[col] = le.fit_transform(df[col])
-    label_encoders[col] = le
 
-# Features and target
-X = df.drop(['price'], axis=1)
-y = df['price']
+X = df[["age", "power", "brand", "owner_encoded", "city", "kms_driven"]]
+y = df["price"]
 
-# Train model
-model = RandomForestRegressor(n_estimators=100, random_state=42)
-model.fit(X, y)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=100)
+
+
+preprocessor = ColumnTransformer(
+    [
+        ("onehot", OneHotEncoder(handle_unknown="ignore"), ["brand", "city"]),
+        ("scaler", StandardScaler(), ["age", "power", "kms_driven"]),
+    ],
+    remainder="passthrough",  # Keeps 'owner_encoded'
+    force_int_remainder_cols=False,  # 👈 Enables future behavior now
+)
+
+preprocessor
+
+model = Pipeline([
+    ("preprocessor", preprocessor),
+    ("regressor", LinearRegression())
+])
+
+# Train Model
+model.fit(X_train, y_train)
 
 # Streamlit UI
 st.title("🚲 Bike Price Prediction App")
